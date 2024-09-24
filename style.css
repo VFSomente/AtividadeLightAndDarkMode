@@ -1,0 +1,38 @@
+:root {
+    --primary-color: rgb(252,252,252);
+    --secondary-color: rgb(0, 0, 0);
+    --tertiary-color: rgb(0,76,57);
+}
+
+body {
+    scroll-behavior: smooth;
+}
+.modos {
+    display: grid;
+    place-items: center;
+    height: 20vh;
+  }
+
+  button{ 
+    background-color: var(--tertiary-color);
+    color: var(--primary-color);
+    padding: 1.5rem 3.1rem;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 1.1rem;
+    margin: 0.4rem 0.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 0.4rem;
+  }
+.elemento-colorido{
+    background: var(--secondary-color);
+    color: var(--primary-color);
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
+.cor-padrao{
+    background: var(--primary-color);
+    color: var(--secondary-color);
+    transition: background-color 0.5s ease-in-out, color 0.5s ease-in-out;
+}
